@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Curriculum vitae </title>
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Curriculum Vitae</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">EXPERIENCIA Y HABILIDADES</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/facundo-centurion-506829267/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/facuucenturion1/"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Mi nombre es<h2>Facundo Centurion</h2>
+                <p class="descripcion">Estudiante Universitario en Lic. Gestion de Tecnología de la Información</p>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="FOTO CV.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Facundo Centurion</span> </h2>
+            <h3>Futuro Desarrollador Web</h3>
+            <p>Tengo 20 años, Soy estudiante de la carrera Gestion en Tecnología de la Información en la Facultad UADE. Considero que soy una persona muy disciplinada, y responsable. El trabajo en equipo potencia mis habilidades, 
+            ya que puedo desempeñarme eficientemente. Me gusta superar los objetivos que me propongo ya que puedo darme cuenta de que soy capaz.</p>
+            <p>Actualmente resido en la Ciudad Autonoma de Buenos Aires.</p>
+            <p>Primaria Completa (Colegio Don Bosco)</p>
+            <p> Secundaria Completa con titulo en Bachiller de Economía 2016-2020 (Colegio Almafuerte - Instituto River Plate)</p>
+            <p>Contacto via Telefono, Email: +54 9 2994563377 - Facuu_centurion@hotmail.com</p>
+            <a href="#">Inicio</a>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS EXPERIENCIAS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+                <p>Diseño de paginas web y desarrollos de ideas para las mismas.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-scale-balanced"></i></span>
+                <h4>Liderazgo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    
+                </ul>
+                <p>Me considero una persona que sabe ponerse ante los malos momentos y liderar grupos de trabajo.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-sharp fa-solid fa-briefcase"></i></span>
+                <h4>Administrador</h4>
+                <hr>
+                <ul class="serv icios-tag">
+                                    </ul>
+                <p>Cuento con experiencia en la administracion de cuentas y llevar papeles al dia de empresas comerciales.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Tesoreria</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Trabaje en la parte de tesoreria como Jefe y Ayudante en un torneo comercial de Futbol.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Cuento con amplio conocimiento en Photoshop, Figma y sitios que sean para la Edicion de Imagenes y Videos.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Diseño Grafico</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Responsable</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Trabajo en Equipo</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Relaciones Publicas</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados.- Facu - 2023</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/facundo-centurion-506829267/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/facuucenturion1/"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
